@@ -1,0 +1,25 @@
+PODS:
+  - KRLCollectionViewGridLayout (0.4.0)
+  - Masonry (0.6.1)
+  - MGBoxKit (8.0.0):
+    - MGEvents
+    - MGMushParser
+  - MGEvents (1.0.3)
+  - MGMushParser (1.2.1)
+  - Organic (0.3)
+
+DEPENDENCIES:
+  - KRLCollectionViewGridLayout
+  - Masonry
+  - MGBoxKit
+  - Organic
+
+SPEC CHECKSUMS:
+  KRLCollectionViewGridLayout: e805613ef7ba82c2b226faec87c1c16e1ebf07e4
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MGBoxKit: ec903e5c62d1b11481d2b3b8a7d5c5c6a9355b65
+  MGEvents: 739ea3e582a8df05bd1044500c7fb6d8f7aff5c8
+  MGMushParser: e5f80531a96a086694103592db4cbad3ffd78fa5
+  Organic: 18bfd27331f4ae3b0bdb5884ee81042f534cca86
+
+COCOAPODS: 0.37.2

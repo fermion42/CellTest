@@ -1,0 +1,6 @@
+#include "Pods-CellTest-MGMushParser.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/MGMushParser" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KRLCollectionViewGridLayout" "${PODS_ROOT}/Headers/Public/MGBoxKit" "${PODS_ROOT}/Headers/Public/MGEvents" "${PODS_ROOT}/Headers/Public/MGMushParser" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/Organic"
+OTHER_LDFLAGS = ${PODS_CELLTEST_MGMUSHPARSER_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KRLCollectionViewGridLayout" "${PODS_ROOT}/Headers/Public/MGBoxKit" "${PODS_ROOT}/Headers/Public/MGEvents" "${PODS_ROOT}/Headers/Public/MGMushParser" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/Organic"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/KRLCollectionViewGridLayout" -isystem "${PODS_ROOT}/Headers/Public/MGBoxKit" -isystem "${PODS_ROOT}/Headers/Public/MGEvents" -isystem "${PODS_ROOT}/Headers/Public/MGMushParser" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/Organic"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-CellTest-KRLCollectionViewGridLayout" -l"Pods-CellTest-MGBoxKit" -l"Pods-CellTest-MGEvents" -l"Pods-CellTest-MGMushParser" -l"Pods-CellTest-Masonry" -l"Pods-CellTest-Organic" -framework "CoreText" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

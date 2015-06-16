@@ -7,11 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22463B10964945D82B85539F /* libPods-CellTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBEBAE92E524CA1A79AF949 /* libPods-CellTest.a */; };
 		F461011C1B3065F100383F4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F461011B1B3065F100383F4B /* main.m */; };
 		F461011F1B3065F100383F4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F461011E1B3065F100383F4B /* AppDelegate.m */; };
 		F46101211B3065F100383F4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46101201B3065F100383F4B /* Images.xcassets */; };
 		F46101241B3065F100383F4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46101221B3065F100383F4B /* LaunchScreen.xib */; };
 		F46101301B3065F100383F4B /* CellTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F461012F1B3065F100383F4B /* CellTestTests.m */; };
+		F46101451B3066DA00383F4B /* ACArrayDataSource+CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F461013E1B3066DA00383F4B /* ACArrayDataSource+CollectionView.m */; };
+		F46101461B3066DA00383F4B /* ACArrayDataSource+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F46101401B3066DA00383F4B /* ACArrayDataSource+TableView.m */; };
+		F46101471B3066DA00383F4B /* ACArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F46101421B3066DA00383F4B /* ACArrayDataSource.m */; };
+		F46101481B3066DA00383F4B /* UIViewController+HideBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F46101441B3066DA00383F4B /* UIViewController+HideBottomBar.m */; };
+		F461014D1B30672D00383F4B /* ACEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F461014B1B30672D00383F4B /* ACEventCell.m */; };
+		F461014E1B30672D00383F4B /* ACEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F461014C1B30672D00383F4B /* ACEventCell.xib */; };
+		F46101521B30673A00383F4B /* ACTradeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F46101501B30673A00383F4B /* ACTradeCell.m */; };
+		F46101531B30673A00383F4B /* ACTradeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46101511B30673A00383F4B /* ACTradeCell.xib */; };
+		F46101571B30675400383F4B /* ACPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F46101551B30675400383F4B /* ACPostCell.m */; };
+		F46101581B30675400383F4B /* ACPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46101561B30675400383F4B /* ACPostCell.xib */; };
+		F46101601B30676100383F4B /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F461015B1B30676100383F4B /* RDVTabBar.m */; };
+		F46101611B30676100383F4B /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F461015D1B30676100383F4B /* RDVTabBarController.m */; };
+		F46101621B30676100383F4B /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F461015F1B30676100383F4B /* RDVTabBarItem.m */; };
+		F46101651B30677700383F4B /* ACMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46101641B30677700383F4B /* ACMainViewController.m */; };
+		F46101681B30678C00383F4B /* ACEventListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46101671B30678C00383F4B /* ACEventListController.m */; };
+		F461016B1B3067B200383F4B /* ACViewtController.m in Sources */ = {isa = PBXBuildFile; fileRef = F461016A1B3067B200383F4B /* ACViewtController.m */; };
+		F46101701B306C7C00383F4B /* UICollectionView+ARDynamicCacheHeightLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F461016F1B306C7C00383F4B /* UICollectionView+ARDynamicCacheHeightLayoutCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57205399FC11EE79622D82D4 /* Pods-CellTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CellTest/Pods-CellTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5BBEBAE92E524CA1A79AF949 /* libPods-CellTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CellTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF958CF87CB5B386F3FC4CF4 /* Pods-CellTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CellTest/Pods-CellTest.release.xcconfig"; sourceTree = "<group>"; };
 		F46101161B3065F100383F4B /* CellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F461011A1B3065F100383F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F461011B1B3065F100383F4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +56,37 @@
 		F46101291B3065F100383F4B /* CellTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F461012E1B3065F100383F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F461012F1B3065F100383F4B /* CellTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellTestTests.m; sourceTree = "<group>"; };
+		F461013D1B3066DA00383F4B /* ACArrayDataSource+CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ACArrayDataSource+CollectionView.h"; sourceTree = "<group>"; };
+		F461013E1B3066DA00383F4B /* ACArrayDataSource+CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ACArrayDataSource+CollectionView.m"; sourceTree = "<group>"; };
+		F461013F1B3066DA00383F4B /* ACArrayDataSource+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ACArrayDataSource+TableView.h"; sourceTree = "<group>"; };
+		F46101401B3066DA00383F4B /* ACArrayDataSource+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ACArrayDataSource+TableView.m"; sourceTree = "<group>"; };
+		F46101411B3066DA00383F4B /* ACArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACArrayDataSource.h; sourceTree = "<group>"; };
+		F46101421B3066DA00383F4B /* ACArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACArrayDataSource.m; sourceTree = "<group>"; };
+		F46101431B3066DA00383F4B /* UIViewController+HideBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HideBottomBar.h"; sourceTree = "<group>"; };
+		F46101441B3066DA00383F4B /* UIViewController+HideBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HideBottomBar.m"; sourceTree = "<group>"; };
+		F461014A1B30672D00383F4B /* ACEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEventCell.h; sourceTree = "<group>"; };
+		F461014B1B30672D00383F4B /* ACEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEventCell.m; sourceTree = "<group>"; };
+		F461014C1B30672D00383F4B /* ACEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACEventCell.xib; sourceTree = "<group>"; };
+		F461014F1B30673A00383F4B /* ACTradeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTradeCell.h; sourceTree = "<group>"; };
+		F46101501B30673A00383F4B /* ACTradeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACTradeCell.m; sourceTree = "<group>"; };
+		F46101511B30673A00383F4B /* ACTradeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACTradeCell.xib; sourceTree = "<group>"; };
+		F46101541B30675400383F4B /* ACPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPostCell.h; sourceTree = "<group>"; };
+		F46101551B30675400383F4B /* ACPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPostCell.m; sourceTree = "<group>"; };
+		F46101561B30675400383F4B /* ACPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACPostCell.xib; sourceTree = "<group>"; };
+		F461015A1B30676100383F4B /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		F461015B1B30676100383F4B /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		F461015C1B30676100383F4B /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		F461015D1B30676100383F4B /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		F461015E1B30676100383F4B /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		F461015F1B30676100383F4B /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		F46101631B30677700383F4B /* ACMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMainViewController.h; sourceTree = "<group>"; };
+		F46101641B30677700383F4B /* ACMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMainViewController.m; sourceTree = "<group>"; };
+		F46101661B30678C00383F4B /* ACEventListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEventListController.h; sourceTree = "<group>"; };
+		F46101671B30678C00383F4B /* ACEventListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEventListController.m; sourceTree = "<group>"; };
+		F46101691B3067B200383F4B /* ACViewtController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACViewtController.h; sourceTree = "<group>"; };
+		F461016A1B3067B200383F4B /* ACViewtController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACViewtController.m; sourceTree = "<group>"; };
+		F461016E1B306C7C00383F4B /* UICollectionView+ARDynamicCacheHeightLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+ARDynamicCacheHeightLayoutCell.h"; sourceTree = "<group>"; };
+		F461016F1B306C7C00383F4B /* UICollectionView+ARDynamicCacheHeightLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+ARDynamicCacheHeightLayoutCell.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22463B10964945D82B85539F /* libPods-CellTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,12 +108,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA631EDAB92DA37EB732CEF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BBEBAE92E524CA1A79AF949 /* libPods-CellTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C18787364DDE30858563356C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57205399FC11EE79622D82D4 /* Pods-CellTest.debug.xcconfig */,
+				EF958CF87CB5B386F3FC4CF4 /* Pods-CellTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F461010D1B3065F100383F4B = {
 			isa = PBXGroup;
 			children = (
 				F46101181B3065F100383F4B /* CellTest */,
 				F461012C1B3065F100383F4B /* CellTestTests */,
 				F46101171B3065F100383F4B /* Products */,
+				C18787364DDE30858563356C /* Pods */,
+				BA631EDAB92DA37EB732CEF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,10 +148,11 @@
 		F46101181B3065F100383F4B /* CellTest */ = {
 			isa = PBXGroup;
 			children = (
-				F461011D1B3065F100383F4B /* AppDelegate.h */,
-				F461011E1B3065F100383F4B /* AppDelegate.m */,
-				F46101201B3065F100383F4B /* Images.xcassets */,
-				F46101221B3065F100383F4B /* LaunchScreen.xib */,
+				F46101491B3066FA00383F4B /* Cell */,
+				F461013C1B3066DA00383F4B /* Helper */,
+				F461013B1B30664200383F4B /* Vender */,
+				F461013A1B30663000383F4B /* ViewController */,
+				F46101391B3065F800383F4B /* AppDelegate */,
 				F46101191B3065F100383F4B /* Supporting Files */,
 			);
 			path = CellTest;
@@ -88,6 +161,8 @@
 		F46101191B3065F100383F4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F46101201B3065F100383F4B /* Images.xcassets */,
+				F46101221B3065F100383F4B /* LaunchScreen.xib */,
 				F461011A1B3065F100383F4B /* Info.plist */,
 				F461011B1B3065F100383F4B /* main.m */,
 			);
@@ -111,6 +186,98 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F46101391B3065F800383F4B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F461011D1B3065F100383F4B /* AppDelegate.h */,
+				F461011E1B3065F100383F4B /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F461013A1B30663000383F4B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F46101631B30677700383F4B /* ACMainViewController.h */,
+				F46101641B30677700383F4B /* ACMainViewController.m */,
+				F46101661B30678C00383F4B /* ACEventListController.h */,
+				F46101671B30678C00383F4B /* ACEventListController.m */,
+				F461016C1B3067B700383F4B /* Base */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F461013B1B30664200383F4B /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				F461016D1B306C7C00383F4B /* UICollectionView+ARDynamicHeightLayoutCell */,
+				F46101591B30676100383F4B /* RDVTabBarController */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		F461013C1B3066DA00383F4B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F461013D1B3066DA00383F4B /* ACArrayDataSource+CollectionView.h */,
+				F461013E1B3066DA00383F4B /* ACArrayDataSource+CollectionView.m */,
+				F461013F1B3066DA00383F4B /* ACArrayDataSource+TableView.h */,
+				F46101401B3066DA00383F4B /* ACArrayDataSource+TableView.m */,
+				F46101411B3066DA00383F4B /* ACArrayDataSource.h */,
+				F46101421B3066DA00383F4B /* ACArrayDataSource.m */,
+				F46101431B3066DA00383F4B /* UIViewController+HideBottomBar.h */,
+				F46101441B3066DA00383F4B /* UIViewController+HideBottomBar.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F46101491B3066FA00383F4B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F461014A1B30672D00383F4B /* ACEventCell.h */,
+				F461014B1B30672D00383F4B /* ACEventCell.m */,
+				F461014C1B30672D00383F4B /* ACEventCell.xib */,
+				F461014F1B30673A00383F4B /* ACTradeCell.h */,
+				F46101501B30673A00383F4B /* ACTradeCell.m */,
+				F46101511B30673A00383F4B /* ACTradeCell.xib */,
+				F46101541B30675400383F4B /* ACPostCell.h */,
+				F46101551B30675400383F4B /* ACPostCell.m */,
+				F46101561B30675400383F4B /* ACPostCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F46101591B30676100383F4B /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F461015A1B30676100383F4B /* RDVTabBar.h */,
+				F461015B1B30676100383F4B /* RDVTabBar.m */,
+				F461015C1B30676100383F4B /* RDVTabBarController.h */,
+				F461015D1B30676100383F4B /* RDVTabBarController.m */,
+				F461015E1B30676100383F4B /* RDVTabBarItem.h */,
+				F461015F1B30676100383F4B /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		F461016C1B3067B700383F4B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F46101691B3067B200383F4B /* ACViewtController.h */,
+				F461016A1B3067B200383F4B /* ACViewtController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F461016D1B306C7C00383F4B /* UICollectionView+ARDynamicHeightLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				F461016E1B306C7C00383F4B /* UICollectionView+ARDynamicCacheHeightLayoutCell.h */,
+				F461016F1B306C7C00383F4B /* UICollectionView+ARDynamicCacheHeightLayoutCell.m */,
+			);
+			path = "UICollectionView+ARDynamicHeightLayoutCell";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F46101331B3065F100383F4B /* Build configuration list for PBXNativeTarget "CellTest" */;
 			buildPhases = (
+				018E5EE2FE72744AA06F8E0D /* Check Pods Manifest.lock */,
 				F46101121B3065F100383F4B /* Sources */,
 				F46101131B3065F100383F4B /* Frameworks */,
 				F46101141B3065F100383F4B /* Resources */,
+				FCC98FB34A972BD1F41C785D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +324,7 @@
 		F461010E1B3065F100383F4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AC;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Gulakya Young";
 				TargetAttributes = {
@@ -191,8 +361,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46101531B30673A00383F4B /* ACTradeCell.xib in Resources */,
 				F46101241B3065F100383F4B /* LaunchScreen.xib in Resources */,
+				F461014E1B30672D00383F4B /* ACEventCell.xib in Resources */,
 				F46101211B3065F100383F4B /* Images.xcassets in Resources */,
+				F46101581B30675400383F4B /* ACPostCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,13 +378,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		018E5EE2FE72744AA06F8E0D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC98FB34A972BD1F41C785D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellTest/Pods-CellTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F46101121B3065F100383F4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46101461B3066DA00383F4B /* ACArrayDataSource+TableView.m in Sources */,
 				F461011F1B3065F100383F4B /* AppDelegate.m in Sources */,
+				F46101451B3066DA00383F4B /* ACArrayDataSource+CollectionView.m in Sources */,
+				F461014D1B30672D00383F4B /* ACEventCell.m in Sources */,
+				F46101521B30673A00383F4B /* ACTradeCell.m in Sources */,
+				F46101621B30676100383F4B /* RDVTabBarItem.m in Sources */,
 				F461011C1B3065F100383F4B /* main.m in Sources */,
+				F46101651B30677700383F4B /* ACMainViewController.m in Sources */,
+				F46101611B30676100383F4B /* RDVTabBarController.m in Sources */,
+				F46101481B3066DA00383F4B /* UIViewController+HideBottomBar.m in Sources */,
+				F46101471B3066DA00383F4B /* ACArrayDataSource.m in Sources */,
+				F46101681B30678C00383F4B /* ACEventListController.m in Sources */,
+				F461016B1B3067B200383F4B /* ACViewtController.m in Sources */,
+				F46101601B30676100383F4B /* RDVTabBar.m in Sources */,
+				F46101571B30675400383F4B /* ACPostCell.m in Sources */,
+				F46101701B306C7C00383F4B /* UICollectionView+ARDynamicCacheHeightLayoutCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +547,7 @@
 		};
 		F46101341B3065F100383F4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57205399FC11EE79622D82D4 /* Pods-CellTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CellTest/Info.plist;
@@ -337,6 +558,7 @@
 		};
 		F46101351B3065F100383F4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF958CF87CB5B386F3FC4CF4 /* Pods-CellTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CellTest/Info.plist;
@@ -398,6 +620,7 @@
 				F46101351B3065F100383F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F46101361B3065F100383F4B /* Build configuration list for PBXNativeTarget "CellTestTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +629,7 @@
 				F46101381B3065F100383F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
